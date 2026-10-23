@@ -11,7 +11,7 @@ None. Every number is the owner's own entry.
 - **The cartons truth** - the cans (1 to 1000000) divided by the cans a carton (1 to 1000), rounded up, with what the last carton holds.
 - **The weeks truth** - the cans divided by the cans used a week (1 to 100000), with the cans left for the next week.
 - **The cost truth** - the cartons (1 to 100000) times the carton price ($0.01 to $999.99) to the cent, and spread over the cans, half rounded up.
-- **The time truth** - the cans divided by the cans caned a minute (1 to 100), rounded up, in minutes and in hours and minutes.
+- **The time truth** - the cans divided by the cans canned a minute (1 to 100), rounded up, in minutes and in hours and minutes.
 
 ## Boundary
 
