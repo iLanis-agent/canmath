@@ -1,0 +1,971 @@
+{
+ "cases": [
+  {
+   "fn": "cartons",
+   "args": [
+    "468",
+    "24"
+   ],
+   "expect": "The 468 cans at 24 cans a carton take 20 cartons, the last carton holding 12 cans."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "468",
+    "65"
+   ],
+   "expect": "The 468 cans at 65 cans a week last 7 full weeks with 13 cans left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "20",
+    "9.60",
+    "468"
+   ],
+   "expect": "The 20 cartons at $9.60 a carton come to $192.00, $0.41 a can."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "468",
+    "15"
+   ],
+   "expect": "The 468 cans at 15 cans a minute take 32 minutes, 0 hours 32 minutes."
+  },
+  {
+   "fn": "cartons",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 can at 1 can a carton takes 1 carton, the last carton holding 1 can."
+  },
+  {
+   "fn": "cartons",
+   "args": [
+    "456",
+    "24"
+   ],
+   "expect": "The 456 cans at 24 cans a carton take 19 cartons, the last carton holding 24 cans."
+  },
+  {
+   "fn": "cartons",
+   "args": [
+    "1000000",
+    "1000"
+   ],
+   "expect": "The 1000000 cans at 1000 cans a carton take 1000 cartons, the last carton holding 1000 cans."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 can at 1 can a week lasts 1 full week with 0 cans left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "455",
+    "65"
+   ],
+   "expect": "The 455 cans at 65 cans a week last 7 full weeks with 0 cans left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "1000000",
+    "100000"
+   ],
+   "expect": "The 1000000 cans at 100000 cans a week last 10 full weeks with 0 cans left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "1",
+    "0.01",
+    "1"
+   ],
+   "expect": "The 1 carton at $0.01 a carton comes to $0.01, $0.01 a can."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "100000",
+    "999.99",
+    "1000000"
+   ],
+   "expect": "The 100000 cartons at $999.99 a carton come to $99999000.00, $100.00 a can."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 can at 1 can a minute takes 1 minute, 0 hours 1 minute."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "60",
+    "1"
+   ],
+   "expect": "The 60 cans at 1 can a minute take 60 minutes, 1 hour 0 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "1000000",
+    "100"
+   ],
+   "expect": "The 1000000 cans at 100 cans a minute take 10000 minutes, 166 hours 40 minutes."
+  },
+  {
+   "fn": "cartons",
+   "args": [
+    "540335",
+    "97"
+   ],
+   "expect": "The 540335 cans at 97 cans a carton take 5571 cartons, the last carton holding 45 cans."
+  },
+  {
+   "fn": "cartons",
+   "args": [
+    "946265",
+    "189"
+   ],
+   "expect": "The 946265 cans at 189 cans a carton take 5007 cartons, the last carton holding 131 cans."
+  },
+  {
+   "fn": "cartons",
+   "args": [
+    "410362",
+    "963"
+   ],
+   "expect": "The 410362 cans at 963 cans a carton take 427 cartons, the last carton holding 124 cans."
+  },
+  {
+   "fn": "cartons",
+   "args": [
+    "977654",
+    "716"
+   ],
+   "expect": "The 977654 cans at 716 cans a carton take 1366 cartons, the last carton holding 314 cans."
+  },
+  {
+   "fn": "cartons",
+   "args": [
+    "29833",
+    "145"
+   ],
+   "expect": "The 29833 cans at 145 cans a carton take 206 cartons, the last carton holding 108 cans."
+  },
+  {
+   "fn": "cartons",
+   "args": [
+    "875172",
+    "721"
+   ],
+   "expect": "The 875172 cans at 721 cans a carton take 1214 cartons, the last carton holding 599 cans."
+  },
+  {
+   "fn": "cartons",
+   "args": [
+    "881006",
+    "596"
+   ],
+   "expect": "The 881006 cans at 596 cans a carton take 1479 cartons, the last carton holding 118 cans."
+  },
+  {
+   "fn": "cartons",
+   "args": [
+    "628140",
+    "396"
+   ],
+   "expect": "The 628140 cans at 396 cans a carton take 1587 cartons, the last carton holding 84 cans."
+  },
+  {
+   "fn": "cartons",
+   "args": [
+    "134096",
+    "868"
+   ],
+   "expect": "The 134096 cans at 868 cans a carton take 155 cartons, the last carton holding 424 cans."
+  },
+  {
+   "fn": "cartons",
+   "args": [
+    "288839",
+    "411"
+   ],
+   "expect": "The 288839 cans at 411 cans a carton take 703 cartons, the last carton holding 317 cans."
+  },
+  {
+   "fn": "cartons",
+   "args": [
+    "266067",
+    "792"
+   ],
+   "expect": "The 266067 cans at 792 cans a carton take 336 cartons, the last carton holding 747 cans."
+  },
+  {
+   "fn": "cartons",
+   "args": [
+    "672288",
+    "944"
+   ],
+   "expect": "The 672288 cans at 944 cans a carton take 713 cartons, the last carton holding 160 cans."
+  },
+  {
+   "fn": "cartons",
+   "args": [
+    "729274",
+    "747"
+   ],
+   "expect": "The 729274 cans at 747 cans a carton take 977 cartons, the last carton holding 202 cans."
+  },
+  {
+   "fn": "cartons",
+   "args": [
+    "266522",
+    "72"
+   ],
+   "expect": "The 266522 cans at 72 cans a carton take 3702 cartons, the last carton holding 50 cans."
+  },
+  {
+   "fn": "cartons",
+   "args": [
+    "174082",
+    "58"
+   ],
+   "expect": "The 174082 cans at 58 cans a carton take 3002 cartons, the last carton holding 24 cans."
+  },
+  {
+   "fn": "cartons",
+   "args": [
+    "128718",
+    "410"
+   ],
+   "expect": "The 128718 cans at 410 cans a carton take 314 cartons, the last carton holding 388 cans."
+  },
+  {
+   "fn": "cartons",
+   "args": [
+    "680617",
+    "864"
+   ],
+   "expect": "The 680617 cans at 864 cans a carton take 788 cartons, the last carton holding 649 cans."
+  },
+  {
+   "fn": "cartons",
+   "args": [
+    "412669",
+    "262"
+   ],
+   "expect": "The 412669 cans at 262 cans a carton take 1576 cartons, the last carton holding 19 cans."
+  },
+  {
+   "fn": "cartons",
+   "args": [
+    "984604",
+    "445"
+   ],
+   "expect": "The 984604 cans at 445 cans a carton take 2213 cartons, the last carton holding 264 cans."
+  },
+  {
+   "fn": "cartons",
+   "args": [
+    "985473",
+    "515"
+   ],
+   "expect": "The 985473 cans at 515 cans a carton take 1914 cartons, the last carton holding 278 cans."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "587146",
+    "61779"
+   ],
+   "expect": "The 587146 cans at 61779 cans a week last 9 full weeks with 31135 cans left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "951096",
+    "64050"
+   ],
+   "expect": "The 951096 cans at 64050 cans a week last 14 full weeks with 54396 cans left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "952617",
+    "64597"
+   ],
+   "expect": "The 952617 cans at 64597 cans a week last 14 full weeks with 48259 cans left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "420313",
+    "53504"
+   ],
+   "expect": "The 420313 cans at 53504 cans a week last 7 full weeks with 45785 cans left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "158229",
+    "74257"
+   ],
+   "expect": "The 158229 cans at 74257 cans a week last 2 full weeks with 9715 cans left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "497499",
+    "72903"
+   ],
+   "expect": "The 497499 cans at 72903 cans a week last 6 full weeks with 60081 cans left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "249348",
+    "69810"
+   ],
+   "expect": "The 249348 cans at 69810 cans a week last 3 full weeks with 39918 cans left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "475082",
+    "4172"
+   ],
+   "expect": "The 475082 cans at 4172 cans a week last 113 full weeks with 3646 cans left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "614380",
+    "46259"
+   ],
+   "expect": "The 614380 cans at 46259 cans a week last 13 full weeks with 13013 cans left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "817583",
+    "93774"
+   ],
+   "expect": "The 817583 cans at 93774 cans a week last 8 full weeks with 67391 cans left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "622851",
+    "87611"
+   ],
+   "expect": "The 622851 cans at 87611 cans a week last 7 full weeks with 9574 cans left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "305609",
+    "71979"
+   ],
+   "expect": "The 305609 cans at 71979 cans a week last 4 full weeks with 17693 cans left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "936393",
+    "73651"
+   ],
+   "expect": "The 936393 cans at 73651 cans a week last 12 full weeks with 52581 cans left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "304419",
+    "58591"
+   ],
+   "expect": "The 304419 cans at 58591 cans a week last 5 full weeks with 11464 cans left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "331005",
+    "89975"
+   ],
+   "expect": "The 331005 cans at 89975 cans a week last 3 full weeks with 61080 cans left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "426223",
+    "2016"
+   ],
+   "expect": "The 426223 cans at 2016 cans a week last 211 full weeks with 847 cans left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "538075",
+    "56835"
+   ],
+   "expect": "The 538075 cans at 56835 cans a week last 9 full weeks with 26560 cans left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "230392",
+    "75480"
+   ],
+   "expect": "The 230392 cans at 75480 cans a week last 3 full weeks with 3952 cans left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "480203",
+    "51810"
+   ],
+   "expect": "The 480203 cans at 51810 cans a week last 9 full weeks with 13913 cans left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "493393",
+    "27498"
+   ],
+   "expect": "The 493393 cans at 27498 cans a week last 17 full weeks with 25927 cans left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "7523",
+    "184.78",
+    "151047"
+   ],
+   "expect": "The 7523 cartons at $184.78 a carton come to $1390099.94, $9.20 a can."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "43232",
+    "383.48",
+    "360498"
+   ],
+   "expect": "The 43232 cartons at $383.48 a carton come to $16578607.36, $45.99 a can."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "13046",
+    "569.32",
+    "515004"
+   ],
+   "expect": "The 13046 cartons at $569.32 a carton come to $7427348.72, $14.42 a can."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "56985",
+    "878.82",
+    "553674"
+   ],
+   "expect": "The 56985 cartons at $878.82 a carton come to $50079557.70, $90.45 a can."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "3026",
+    "631.32",
+    "579520"
+   ],
+   "expect": "The 3026 cartons at $631.32 a carton come to $1910374.32, $3.30 a can."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "53695",
+    "76.49",
+    "376494"
+   ],
+   "expect": "The 53695 cartons at $76.49 a carton come to $4107130.55, $10.91 a can."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "87836",
+    "955.62",
+    "472175"
+   ],
+   "expect": "The 87836 cartons at $955.62 a carton come to $83937838.32, $177.77 a can."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "64951",
+    "28.39",
+    "300622"
+   ],
+   "expect": "The 64951 cartons at $28.39 a carton come to $1843958.89, $6.13 a can."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "1502",
+    "267.87",
+    "251748"
+   ],
+   "expect": "The 1502 cartons at $267.87 a carton come to $402340.74, $1.60 a can."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "21989",
+    "842.31",
+    "627002"
+   ],
+   "expect": "The 21989 cartons at $842.31 a carton come to $18521554.59, $29.54 a can."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "80967",
+    "30.57",
+    "108605"
+   ],
+   "expect": "The 80967 cartons at $30.57 a carton come to $2475161.19, $22.79 a can."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "6093",
+    "938.58",
+    "115386"
+   ],
+   "expect": "The 6093 cartons at $938.58 a carton come to $5718767.94, $49.56 a can."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "26872",
+    "134.83",
+    "210659"
+   ],
+   "expect": "The 26872 cartons at $134.83 a carton come to $3623151.76, $17.20 a can."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "69882",
+    "647.35",
+    "798940"
+   ],
+   "expect": "The 69882 cartons at $647.35 a carton come to $45238112.70, $56.62 a can."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "602",
+    "269.91",
+    "434045"
+   ],
+   "expect": "The 602 cartons at $269.91 a carton come to $162485.82, $0.37 a can."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "45705",
+    "733.79",
+    "431561"
+   ],
+   "expect": "The 45705 cartons at $733.79 a carton come to $33537871.95, $77.71 a can."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "60985",
+    "843.36",
+    "593555"
+   ],
+   "expect": "The 60985 cartons at $843.36 a carton come to $51432309.60, $86.65 a can."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "33180",
+    "289.66",
+    "770610"
+   ],
+   "expect": "The 33180 cartons at $289.66 a carton come to $9610918.80, $12.47 a can."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "24506",
+    "256.27",
+    "481326"
+   ],
+   "expect": "The 24506 cartons at $256.27 a carton come to $6280152.62, $13.05 a can."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "18752",
+    "361.87",
+    "180702"
+   ],
+   "expect": "The 18752 cartons at $361.87 a carton come to $6785786.24, $37.55 a can."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "19882",
+    "671.16",
+    "956479"
+   ],
+   "expect": "The 19882 cartons at $671.16 a carton come to $13344003.12, $13.95 a can."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "55271",
+    "692.57",
+    "185201"
+   ],
+   "expect": "The 55271 cartons at $692.57 a carton come to $38279036.47, $206.69 a can."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "4210",
+    "552.71",
+    "375929"
+   ],
+   "expect": "The 4210 cartons at $552.71 a carton come to $2326909.10, $6.19 a can."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "30813",
+    "461.26",
+    "199022"
+   ],
+   "expect": "The 30813 cartons at $461.26 a carton come to $14212804.38, $71.41 a can."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "47030",
+    "942.46",
+    "197090"
+   ],
+   "expect": "The 47030 cartons at $942.46 a carton come to $44323893.80, $224.89 a can."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "733165",
+    "34"
+   ],
+   "expect": "The 733165 cans at 34 cans a minute take 21564 minutes, 359 hours 24 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "719836",
+    "13"
+   ],
+   "expect": "The 719836 cans at 13 cans a minute take 55372 minutes, 922 hours 52 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "506018",
+    "34"
+   ],
+   "expect": "The 506018 cans at 34 cans a minute take 14883 minutes, 248 hours 3 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "513217",
+    "65"
+   ],
+   "expect": "The 513217 cans at 65 cans a minute take 7896 minutes, 131 hours 36 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "203978",
+    "82"
+   ],
+   "expect": "The 203978 cans at 82 cans a minute take 2488 minutes, 41 hours 28 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "273634",
+    "66"
+   ],
+   "expect": "The 273634 cans at 66 cans a minute take 4146 minutes, 69 hours 6 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "60401",
+    "42"
+   ],
+   "expect": "The 60401 cans at 42 cans a minute take 1439 minutes, 23 hours 59 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "833629",
+    "43"
+   ],
+   "expect": "The 833629 cans at 43 cans a minute take 19387 minutes, 323 hours 7 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "791217",
+    "13"
+   ],
+   "expect": "The 791217 cans at 13 cans a minute take 60863 minutes, 1014 hours 23 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "141005",
+    "42"
+   ],
+   "expect": "The 141005 cans at 42 cans a minute take 3358 minutes, 55 hours 58 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "246325",
+    "11"
+   ],
+   "expect": "The 246325 cans at 11 cans a minute take 22394 minutes, 373 hours 14 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "105806",
+    "95"
+   ],
+   "expect": "The 105806 cans at 95 cans a minute take 1114 minutes, 18 hours 34 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "911643",
+    "58"
+   ],
+   "expect": "The 911643 cans at 58 cans a minute take 15718 minutes, 261 hours 58 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "825965",
+    "9"
+   ],
+   "expect": "The 825965 cans at 9 cans a minute take 91774 minutes, 1529 hours 34 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "109314",
+    "99"
+   ],
+   "expect": "The 109314 cans at 99 cans a minute take 1105 minutes, 18 hours 25 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "313844",
+    "68"
+   ],
+   "expect": "The 313844 cans at 68 cans a minute take 4616 minutes, 76 hours 56 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "559561",
+    "77"
+   ],
+   "expect": "The 559561 cans at 77 cans a minute take 7268 minutes, 121 hours 8 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "998904",
+    "67"
+   ],
+   "expect": "The 998904 cans at 67 cans a minute take 14910 minutes, 248 hours 30 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "584068",
+    "93"
+   ],
+   "expect": "The 584068 cans at 93 cans a minute take 6281 minutes, 104 hours 41 minutes."
+  }
+ ],
+ "errors": [
+  [
+   "cartons",
+   [
+    "0",
+    "24"
+   ]
+  ],
+  [
+   "cartons",
+   [
+    "1000001",
+    "12"
+   ]
+  ],
+  [
+   "cartons",
+   [
+    "2.5",
+    "12"
+   ]
+  ],
+  [
+   "cartons",
+   [
+    "468",
+    "0"
+   ]
+  ],
+  [
+   "cartons",
+   [
+    "468",
+    "1001"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "0",
+    "30"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "468",
+    "0"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "468",
+    "100001"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "468",
+    "1.5"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "1000001",
+    "30"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "0",
+    "9.60",
+    "468"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "100001",
+    "9.60",
+    "468"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "20",
+    "0",
+    "468"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "20",
+    "9.605",
+    "468"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "20",
+    "9.60",
+    "0"
+   ]
+  ],
+  [
+   "time",
+   [
+    "0",
+    "15"
+   ]
+  ],
+  [
+   "time",
+   [
+    "468",
+    "0"
+   ]
+  ],
+  [
+   "time",
+   [
+    "468",
+    "101"
+   ]
+  ],
+  [
+   "time",
+   [
+    "468",
+    "6.5"
+   ]
+  ],
+  [
+   "time",
+   [
+    "1000001",
+    "5"
+   ]
+  ]
+ ]
+}
